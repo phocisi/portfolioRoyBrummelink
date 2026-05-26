@@ -112,7 +112,8 @@ p {
 }
 
 .header-image {
-  background-color: var(--header-nav-bg-color);
+
+  background: url("image/folk.png");
   height: 100%;
   width: 40%;
   border-radius: 50%;
