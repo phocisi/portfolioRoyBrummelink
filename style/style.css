@@ -134,14 +134,14 @@ p {
 
 .company-logo-container div {
   background-color: var(--header-nav-bg-color);
-  padding: 3rem;
+  padding: 0.5rem;
   margin-top: 2rem;
   border-radius: 5px;
 }
 
 .folk {
     height: 100px;
-    width: 100px;
+    width: 110px;
 }
 
 .case-work-container {
