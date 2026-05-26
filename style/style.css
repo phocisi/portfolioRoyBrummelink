@@ -137,6 +137,8 @@ p {
   padding: 3rem;
   margin-top: 2rem;
   border-radius: 5px;
+    height: 100px;
+    width: 100px;
 }
 
 .case-work-container {
