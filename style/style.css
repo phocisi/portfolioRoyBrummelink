@@ -139,6 +139,11 @@ p {
   border-radius: 5px;
 }
 
+.header-company-logo {
+    height: 2rem;
+    width: 3rem;
+}
+
 .case-work-container {
   width: 80%;
   margin-left: 10%;
