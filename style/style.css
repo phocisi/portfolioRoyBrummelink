@@ -1,9 +1,9 @@
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --header-bg-color: rgb(245, 245, 245);
+  --header-bg-color: rgb(71, 68, 72);
   --main-text-color: rgb(71, 68, 72);
-  --header-nav-bg-color: rgb(183, 184, 183);
+  --header-nav-bg-color: rgb(45, 35, 46);
   --name-text-color: white;
   --started-btn-color: rgb(238, 66, 102);
   --started-btn-shadow: rgb(239, 74, 108);
