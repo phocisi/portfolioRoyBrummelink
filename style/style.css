@@ -311,16 +311,19 @@ p {
 
 .recent-header h2 {
   margin-bottom: 3%;
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
-    padding: 2rem;
-    height: -webkit-fill-available !important;
-    width: -webkit-fill-available !important;
 }
 
 .recent-main {
   display: grid;
   grid-template-columns: 0.5fr repeat(2, 2fr) 0.5fr;
+}
+
+.recent-header-text {
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 2rem;
+    height: -webkit-fill-available !important;
+    width: -webkit-fill-available !important;
 }
 
 .middle-margin {
