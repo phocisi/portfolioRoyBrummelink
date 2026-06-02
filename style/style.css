@@ -306,7 +306,13 @@ p {
   width: 50%;
   margin-left: 25%;
   text-align: center;
-  padding: 5% 0%;
+  /*padding: 5% 0%;*/
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 2rem;
+    height: -webkit-fill-available !important;
+    width: -webkit-fill-available !important;
+
 }
 
 .recent-header h2 {
