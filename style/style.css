@@ -303,10 +303,10 @@ p {
 }
 
 .recent-header {
-  width: 50%;
-  margin-left: 25%;
+  /*width: 50%;*/
+  /*margin-left: 25%;*/
+    margin-top: 10%;
   text-align: center;
-  padding: 5% 0%;
     border: 0.2px solid var(--main-text-color);
     border-radius: 5px;
     padding: 2rem;
