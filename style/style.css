@@ -8,11 +8,11 @@
   --started-btn-color: rgb(238, 66, 102);
   --started-btn-shadow: rgb(239, 74, 108);
   --first-btn-color: rgb(238, 66, 102);
-  --first-category-color: rgb(183, 184, 183);
-  --second-btn-color: rgba(0, 10, 255, 1);
-  --second-category-color: rgba(208, 230, 255, 1);
-  --third-btn-color: rgba(42, 176, 144, 1);
-  --third-category-color: rgba(224, 255, 248, 1);
+  --first-category-color: rgb(193, 194, 193);
+  --second-btn-color: rgb(181, 185, 181);
+  --second-category-color: rgb(141, 144, 141);
+  --third-btn-color: rgb(238, 66, 102);
+  --third-category-color: rgb(239, 74, 108);
 }
 
 body,
