@@ -157,9 +157,9 @@ p {
 .case-first-work,
 .case-second-work,
 .case-third-work {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
-    padding: 0.5rem;
+    /*border: 0.2px solid var(--main-text-color);*/
+    /*border-radius: 5px;*/
+    /*padding: 0.5rem;*/
   display: grid;
   gap: 5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -167,6 +167,9 @@ p {
 }
 
 .work-text {
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 1rem;
   margin-top: 5%;
 }
 
