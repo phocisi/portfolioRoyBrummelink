@@ -9,10 +9,10 @@
   --started-btn-shadow: rgb(239, 74, 108);
   --first-btn-color: rgb(238, 66, 102);
   --first-category-color: rgb(193, 194, 193);
-  --second-btn-color: rgb(181, 185, 181);
-  --second-category-color: rgb(141, 144, 141);
+  --second-btn-color: rgb(238, 66, 102);
+  --second-category-color: rgb(170, 175, 170);
   --third-btn-color: rgb(238, 66, 102);
-  --third-category-color: rgb(239, 74, 108);
+  --third-category-color: rgb(151, 155, 151);
 }
 
 body,
