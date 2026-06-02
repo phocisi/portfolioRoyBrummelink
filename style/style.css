@@ -18,6 +18,8 @@
 body,
 h2,
 p {
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 50%;
   margin: 0;
 }
 
