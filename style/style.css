@@ -1,14 +1,14 @@
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --header-bg-color: rgba(8, 8, 8, 1);
-  --main-text-color: rgba(156, 156, 156, 1);
-  --header-nav-bg-color: rgba(27, 27, 27, 1);
+  --header-bg-color: rgb(245, 245, 245);
+  --main-text-color: rgb(71, 68, 72);
+  --header-nav-bg-color: rgb(183, 184, 183);
   --name-text-color: white;
-  --started-btn-color: rgba(63, 142, 0, 1);
-  --started-btn-shadow: rgba(98, 186, 27, 1);
-  --first-btn-color: rgba(255, 162, 23, 1);
-  --first-category-color: rgba(255, 246, 233, 1);
+  --started-btn-color: rgb(238, 66, 102);
+  --started-btn-shadow: rgb(239, 74, 108);
+  --first-btn-color: rgb(238, 66, 102);
+  --first-category-color: rgb(183, 184, 183);
   --second-btn-color: rgba(0, 10, 255, 1);
   --second-category-color: rgba(208, 230, 255, 1);
   --third-btn-color: rgba(42, 176, 144, 1);
@@ -134,7 +134,7 @@ p {
 
 .company-logo-container div {
   background-color: var(--header-nav-bg-color);
-  padding: 0.5rem;
+  padding: 2rem;
   margin-top: 2rem;
   border-radius: 5px;
 }
