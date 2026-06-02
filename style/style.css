@@ -158,6 +158,8 @@ p {
     border: 0.2px solid var(--main-text-color);
     border-radius: 5px;
     padding: 2rem;
+    height: -webkit-fill-available !important;
+    width: -webkit-fill-available !important;
 }
 
 .case-first-work,
