@@ -167,9 +167,6 @@ p {
 }
 
 .work-text {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
-    padding: 1rem;
   margin-top: 5%;
 }
 
@@ -192,6 +189,9 @@ p {
 }
 
 .case-first-text div:first-child {
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 1rem;
   background-color: var(--first-category-color);
   color: var(--first-btn-color);
 }
