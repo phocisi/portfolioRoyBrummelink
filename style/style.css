@@ -303,19 +303,15 @@ p {
 }
 
 .recent-header {
-  /*width: 50%;*/
-  /*margin-left: 25%;*/
-    margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
   text-align: center;
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
-    padding: 2rem;
-    height: -webkit-fill-available !important;
-    width: -webkit-fill-available !important;
-
 }
 
 .recent-header h2 {
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 5px;
+    padding: 2rem;
   margin-bottom: 3%;
 }
 
