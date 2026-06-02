@@ -156,7 +156,7 @@ p {
 
 .project-header {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 2rem;
     height: -webkit-fill-available !important;
     width: -webkit-fill-available !important;
@@ -166,7 +166,7 @@ p {
 .case-second-work,
 .case-third-work {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 2rem;
   display: grid;
   gap: 5rem;
@@ -203,19 +203,19 @@ p {
 
 .case-first-about {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
 }
 
 .case-second-about {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
 }
 
 .case-third-about {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
 }
 
@@ -278,7 +278,7 @@ p {
 
 .testimonial-container {
   border: 1px solid var(--main-text-color);
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5%;
 }
 
@@ -320,7 +320,7 @@ p {
 
 .recent-header-text {
     border: 0.2px solid var(--main-text-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 2rem;
     height: -webkit-fill-available !important;
     width: -webkit-fill-available !important;
