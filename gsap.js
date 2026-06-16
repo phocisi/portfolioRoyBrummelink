@@ -7,5 +7,5 @@ let smoother = ScrollSmoother.create({
 });
 
 function scrollCaseStudies(){
-        smoother.scrollTo(".case-studies", true, ".case-studies");
+        smoother.scrollTo(".case-studies", true, ".case-studies .case-studies");
 }
