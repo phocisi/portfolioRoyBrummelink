@@ -1,10 +1,7 @@
+gsapVersions.gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    gsapVersions.gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-
-    ScrollSmoother.create({
-        smooth: 1,
-        effects: true,
-        smoothTouch: 0.1
-    });
+let smoother = ScrollSmoother.create({
+    smooth: 2,
+    effects: true,
+    normalizeScroll: true
 });
