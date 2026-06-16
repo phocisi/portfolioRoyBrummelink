@@ -6,6 +6,13 @@ let smoother = ScrollSmoother.create({
     normalizeScroll: true
 });
 
+ScrollTrigger.create({
+    trigger: ".case-studies",
+    pin: true,
+    start: "center center",
+    end: ".case-studies",
+});
+
 function scrollCaseStudies(){
-        smoother.scrollTo(".case-studies", true, ".case-studies .case-studies");
+        smoother.scrollTo(".case-studies", true, "center center");
 }
