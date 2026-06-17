@@ -6,13 +6,31 @@ let smoother = ScrollSmoother.create({
     normalizeScroll: true
 });
 
-ScrollTrigger.create({
-    trigger: ".project-header",
-    pin: true,
-    start: "center center",
-    end: ".case-studies",
-});
 
 function scrollCaseStudies(){
-        smoother.scrollTo(".project-header", true, "center center");
+    gsap.to(smoother, {
+        scrollTop: smoother.offset(".case-studies", "top top"),
+        duration: 1
+    })
+}
+
+function scrollTestimonial(){
+    gsap.to(smoother, {
+        scrollTop: smoother.offset(".testimonial", "top top"),
+        duration: 1
+    })
+}
+
+function scrollRecent(){
+    gsap.to(smoother, {
+        scrollTop: smoother.offset(".recent-work", "top top"),
+        duration: 1
+    })
+}
+
+function scrollContact(){
+    gsap.to(smoother, {
+        scrollTop: smoother.offset(".contact", "top top"),
+        duration: 1
+    })
 }

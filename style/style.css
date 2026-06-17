@@ -1,6 +1,6 @@
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Nunito", "Archivo Black";
   --header-bg-color: rgb(70, 67, 67);
   --main-text-color: rgb(238, 66, 102);
   --header-nav-bg-color: rgb(45, 35, 46);
@@ -27,11 +27,18 @@ h2 {
 
 p {
   font-size: 1rem;
+  font-family: nunito;
 }
 
 * {
   box-sizing: border-box;
   font-family: "IBM Plex Mono", var(--system-ui);
+}
+
+.text-prog {
+  color: white;
+  font-family: "Archivo Black";
+  font-size: 1.5rem;
 }
 
 .header {
@@ -109,7 +116,7 @@ p {
 .header-image-container {
   display: flex;
   justify-content: flex-start;
-    border: 1px solid var(--main-text-color);
+  border: 1px solid var(--main-text-color);
 }
 
 .header-image {
@@ -125,6 +132,31 @@ p {
 .header-company {
   width: 80%;
   margin-left: 10%;
+}
+
+.header-company-logo-1 {
+  background: linear-gradient(to right, #e44b18 50%, #f16419 50%);
+  text-align: center;
+}
+
+.header-company-logo-2 {
+  background: linear-gradient(to right, #264ce2 50%, #2964ef 50%);
+  text-align: center;
+}
+
+.header-company-logo-3 {
+  background: linear-gradient(to right, #e7c831 50%, #fddc24 50%);
+  text-align: center;
+}
+
+.header-company-logo-4 {
+  background: linear-gradient(to bottom right, #a078da 50%, #280067 50%);
+  text-align: center;
+}
+
+.header-company-logo-5 {
+  background: linear-gradient(to bottom right, #3475a8 50%, #fdd746 50%);
+  text-align: center;
 }
 
 .company-logo-container {
@@ -155,19 +187,19 @@ p {
 }
 
 .project-header {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 2rem;
-    height: -webkit-fill-available !important;
-    width: -webkit-fill-available !important;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 2rem;
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
 }
 
 .case-first-work,
 .case-second-work,
 .case-third-work {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 2rem;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 2rem;
   display: grid;
   gap: 5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -178,14 +210,14 @@ p {
   margin-top: 5%;
 }
 
-.work-text button {
+.work-text a {
   padding: 2% 10%;
   border-radius: 5px;
   border: none;
   color: var(--name-text-color);
 }
 
-.case-first-btn button {
+.case-first-btn a {
   background-color: var(--first-btn-color);
 }
 
@@ -202,21 +234,27 @@ p {
 }
 
 .case-first-about {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 1rem;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .case-second-about {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 1rem;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .case-third-about {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 1rem;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.apiOpdrachtFoto {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .case-first-image,
@@ -227,7 +265,7 @@ p {
   height: 100%;
 }
 
-.case-second-btn button {
+.case-second-btn a {
   background-color: var(--second-btn-color);
 }
 
@@ -236,7 +274,7 @@ p {
   color: var(--second-btn-color);
 }
 
-.case-third-btn button {
+.case-third-btn a {
   background-color: var(--third-btn-color);
 }
 
@@ -319,11 +357,11 @@ p {
 }
 
 .recent-header-text {
-    border: 0.2px solid var(--main-text-color);
-    border-radius: 10px;
-    padding: 2rem;
-    height: -webkit-fill-available !important;
-    width: -webkit-fill-available !important;
+  border: 0.2px solid var(--main-text-color);
+  border-radius: 10px;
+  padding: 2rem;
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
 }
 
 .middle-margin {

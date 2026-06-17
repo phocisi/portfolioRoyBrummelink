@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*overflow-x: hidden;*/
+}
+
+#video {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#containerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#marsInfo {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-image: linear-gradient(to top left, #000000, #881a1a);
+    opacity: 0;
+    transition: all 2.1s;
+    transition-delay: 1.2s;
+}
+
+#explanationMars {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    color: white;
+    opacity: 0;
+    transition: all 1.2s;
+    margin-top: 15px;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+}
+
+#h2Header {
+    color: white;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+#containerExplanationMars {
+    width: 700px;
+}
+
+#weatherElysium {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+}
+
+#InSight {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: -webkit-fill-available;
+    height: 100vh;
+}
+
+.headElysium {
+    color: white;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.pElysium {
+    color: #ccc3c3;
+    width: 540px;
+    margin-top: 50px;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#InSightExplanation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#sol681 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+#text681 {
+    height: 70px;
+}
+
+#head681 {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#p681 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #ccc3c3;
+}
+
+#weather681 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#high681 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #ccc3c3;
+}
+
+#low681 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #ccc3c3;
+}
+
+#landerTechSpecs {
+    opacity: 0;
+    margin-top: 50px;
+    margin-left: 200px;
+
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#InSightSpecs {
+    opacity: 0;
+    margin-left: 200px;
+
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#solDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.sol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 12vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    position: relative;
+    bottom: -20vh;
+}
+
+.headSolDays {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    /*font-size: 40px;*/
+}
+
+.pSolDays {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.solDivLine {
+    border-top: white solid 1px;
+}
+
+.solTemp {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#InSightMore {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    justify-content: space-around;
+    position: absolute;
+    margin-right: 15vw;
+    margin-top: 15vh;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#obj {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#objective {
+    width: 420px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+}

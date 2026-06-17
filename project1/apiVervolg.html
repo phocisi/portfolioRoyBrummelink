@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="apiVervolg.css">
+    <script async defer src="apiVervolg.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<video autoplay muted onplay="videoStart()" onplaying="videoTransistion()" onended="videoEnded()" id="video">
+    <source src="" type="video/mp4">
+</video>
+<div id="containerInfo">
+
+    <div id="marsInfo">
+        <h2 id="h2Header">InSight Lander</h2>
+
+        <div id="containerExplanationMars">
+
+            <p id="explanationMars">Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)</p>
+
+            <p id="landerTechSpecs">Lander Tech Specs</p>
+            <table id="InSightSpecs">
+                <tr>
+                    <td><strong>Length</strong></td>
+                    <td>19 feet 8 inches (6 meters) with solar panels deployed ("wingspan")</td>
+                </tr>
+                <tr>
+                    <td><strong>Width</strong></td>
+                    <td>5 feet 1 inch (1.56 meters) (lander deck diameter)</td>
+                </tr>
+                <tr>
+                    <td><strong>Deck Height</strong></td>
+                    <td>33 to 43 inches (83 to 108 centimeters)</td>
+                </tr>
+                <tr>
+                    <td><strong>Length of Robotic Arm</strong></td>
+                    <td>5 feet 9 inches (1.8 meters)</td>
+                </tr>
+                <tr>
+                    <td><strong>Weight</strong></td>
+                    <td>794 pounds (360 kilograms)</td>
+                </tr>
+                <tr>
+                    <td><strong>Electrical Power</strong></td>
+                    <td>Two solar panels, about 7 feet (2.2 meters) each in diameter</td>
+                </tr>
+                <tr>
+                    <td><strong>Cameras</strong></td>
+                    <td>2 color cameras (1 is a "fisheye")
+                        Image size: 1,024 pixels by 1,024 pixels</td>
+                </tr>
+                <tr>
+                    <td><strong>Science Instruments</strong></td>
+                    <td>3 (a seismometer, heat probe, and a radio science experiment)</td>
+                </tr>
+            </table>
+        </div>
+        <div id="InSightMore">
+            <p id="obj">Objective</p>
+            <p id="objective">The InSight mission had two major goals, each with several science investigations, designed to help uncover the process that shaped all of the rocky planets in the inner solar system.</p>
+        </div>
+    </div>
+</div>
+<div id="weatherElysium">
+    <img src="../../../OneDrive%20-%20COG/Leerjaar%201/Web%20Development/Periode%204/portfolio/image/img.png" id="InSight">
+
+        <div id="InSightExplanation">
+            <h2 class="headElysium">Weather report from Elysium Planitia</h2>
+            <p class="pElysium">InSight landed near Mars' equator on the western side of a flat, smooth plain called Elysium Planitia. Elysium Planitia was selected not for its surface features, but for safety considerations. InSight's purpose was to study the interior of Mars, not the surface. Thus, in the selection of a landing site, what's on the surface mattered less than for previous rover missions focused on the geology.</p>
+        </div>
+
+    <div id="sol681">
+        <div id="text681">
+            <p id="head681">Sol </p>
+            <p id="p681">October 26, 2020</p>
+        </div>
+
+        <div id="weather681">
+            <p id="high681">HIGH: </p>
+            <p id="low681">LOW: </p>
+        </div>
+
+    </div>
+
+    <div id="solDays">
+    <div class="sol" id="sol675">
+        <p class="headSolDays" id="head675">Sol </p>
+        <p class="pSolDays" id="p675">Oct 20, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high675">HIGH: </p>
+            <p class="solTemp" id="low675">LOW: </p>
+        </div>
+    </div>
+
+    <div class="sol" id="sol676">
+        <p class="headSolDays" id="head676">Sol </p>
+        <p class="pSolDays" id="p676">Oct 21, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high676">HIGH: </p>
+            <p class="solTemp" id="low676">LOW: </p>
+        </div>
+    </div>
+
+    <div class="sol" id="sol677">
+        <p class="headSolDays" id="head677">Sol </p>
+        <p class="pSolDays" id="p677">Oct 22, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high677">HIGH: </p>
+            <p class="solTemp" id="low677">LOW: </p>
+        </div>
+    </div>
+
+    <div class="sol" id="sol678">
+        <p class="headSolDays" id="head678">Sol </p>
+        <p class="pSolDays" id="p678">Oct 23, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high678">HIGH: </p>
+            <p class="solTemp" id="low678">LOW: </p>
+        </div>
+    </div>
+
+    <div class="sol" id="sol679">
+        <p class="headSolDays" id="head679">Sol </p>
+        <p class="pSolDays" id="p679">Oct 24, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high679">HIGH: </p>
+            <p class="solTemp" id="low679">LOW: </p>
+        </div>
+    </div>
+
+    <div class="sol" id="sol680">
+        <p class="headSolDays" id="head680">Sol </p>
+        <p class="pSolDays" id="p680">Oct 25, 2020</p>
+
+        <div class="solDivLine">
+            <p class="solTemp" id="high680">HIGH: </p>
+            <p class="solTemp" id="low680">LOW: </p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+</body>
+</html>
