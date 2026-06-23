@@ -187,11 +187,20 @@ p {
 }
 
 .project-header {
+<<<<<<< Updated upstream
   border: 0.2px solid var(--main-text-color);
   border-radius: 10px;
   padding: 2rem;
   height: -webkit-fill-available !important;
   width: -webkit-fill-available !important;
+=======
+    /*position: absolute;*/
+    border: 0.2px solid var(--main-text-color);
+    border-radius: 10px;
+    padding: 2rem;
+    height: -webkit-fill-available !important;
+    width: -webkit-fill-available !important;
+>>>>>>> Stashed changes
 }
 
 .case-first-work,
@@ -204,6 +213,8 @@ p {
   gap: 5rem;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 10%;
+    position: relative;
+    background-color: white;
 }
 
 .work-text {
