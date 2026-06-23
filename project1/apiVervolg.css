@@ -51,6 +51,7 @@ html, body {
     opacity: 0;
     transition: all 1.2s;
     margin-top: 15px;
+    margin-left: 40px;
 
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -67,7 +68,7 @@ html, body {
     font-weight: bold;
     font-style: normal;
     font-size: 40px;
-
+    margin-left: 40px;
 }
 
 #containerExplanationMars {

@@ -115,7 +115,7 @@ function videoTransistion() {
             document.getElementById('marsInfo').style.height = '100%';
             document.getElementById('explanationMars').style.opacity = 0;
             document.getElementById('explanationMars').style.transition = 'ease-out 0.4s';
-            document.getElementById('explanationMars').style.marginLeft = '40px';
+            // document.getElementById('explanationMars').style.marginLeft = '40px';
         }
     })
 
@@ -126,7 +126,7 @@ function videoTransistion() {
             document.getElementById('explanationMars').style.opacity = 1;
             document.getElementById('explanationMars').style.transition = 'all 0.4s';
             document.getElementById('marsInfo').style.justifyContent = 'start';
-            document.getElementById('h2Header').style.marginLeft = '40px';
+            // document.getElementById('h2Header').style.marginLeft = '40px';
             document.getElementById('h2Header').style.transition = 'ease-in 0.4s';
 
             document.getElementById('landerTechSpecs').style.opacity = 1;

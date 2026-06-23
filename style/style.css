@@ -1,7 +1,7 @@
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Nunito", "Archivo Black";
-  --header-bg-color: rgb(70, 67, 67);
+  --header-bg-color: rgb(255, 255, 255);
   --main-text-color: rgb(238, 66, 102);
   --header-nav-bg-color: rgb(45, 35, 46);
   --name-text-color: #e1e1e1;
@@ -42,7 +42,9 @@ p {
 }
 
 .header {
-  background-color: var(--header-bg-color);
+  background-image: url("../image/athens.png");
+    background-size: cover;
+    background-position-y: -200px;
   display: grid;
   grid-template-rows: 0.5fr 2fr 1fr;
   grid-template-columns: 2fr 1fr;
@@ -53,7 +55,8 @@ p {
   grid-column: 1 / 3;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--header-nav-bg-color);
+  background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--main-text-color);
   width: 80%;
   margin-left: 10%;
   align-items: center;
@@ -63,6 +66,7 @@ p {
 
 .nav-section a {
   text-decoration: none;
+    font-weight: bold;
   color: var(--main-text-color);
 }
 
@@ -123,10 +127,6 @@ p {
   height: 100%;
   width: 70%;
   border-radius: 50%;
-}
-
-.header-company p {
-  margin-left: 5%;
 }
 
 .header-company {
@@ -219,6 +219,7 @@ p {
 
 .case-first-btn a {
   background-color: var(--first-btn-color);
+    text-decoration: none;
 }
 
 .category-text {
@@ -267,6 +268,7 @@ p {
 
 .case-second-btn a {
   background-color: var(--second-btn-color);
+    text-decoration: none;
 }
 
 .case-second-text div:nth-child(1) {
@@ -276,6 +278,7 @@ p {
 
 .case-third-btn a {
   background-color: var(--third-btn-color);
+    text-decoration: none;
 }
 
 .case-third-category {
@@ -287,6 +290,7 @@ p {
   margin-top: 10%;
   background-color: var(--header-bg-color);
   color: var(--main-text-color);
+    
 }
 
 .testimonial-content-container {
