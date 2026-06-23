@@ -6,7 +6,6 @@ let smoother = ScrollSmoother.create({
     normalizeScroll: true
 });
 
-<<<<<<< Updated upstream
 
 function scrollCaseStudies(){
     gsap.to(smoother, {
@@ -34,16 +33,4 @@ function scrollContact(){
         scrollTop: smoother.offset(".contact", "top top"),
         duration: 1
     })
-=======
-ScrollTrigger.create({
-    trigger: ".project-header",
-    pin: true,
-    start: "center center",
-    end: ".case-first-work",
-});
-
-function scrollCaseStudies(){
-    console.log("scroll");
-        smoother.scrollTo(".project-header", true, "center center");
->>>>>>> Stashed changes
 }
