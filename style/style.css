@@ -2,7 +2,7 @@
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Nunito", "Archivo Black";
   --header-bg-color: rgb(255, 255, 255);
-  --main-text-color: rgb(238, 66, 102);
+  --main-text-color: rgb(13, 94, 175);
   --header-nav-bg-color: rgb(45, 35, 46);
   --name-text-color: #e1e1e1;
   --started-btn-color: rgb(238, 66, 102);
@@ -137,7 +137,7 @@ p {
 }
 
 .case-first-btn a {
-  background-color: var(--first-btn-color);
+  background-color: var(--main-text-color);
     text-decoration: none;
 }
 
