@@ -141,6 +141,13 @@ p {
     text-decoration: none;
 }
 
+.case-first-btn p {
+    font-family: "IBM Plex Mono", var(--system-ui);
+    margin-top: 1.2vh;
+    opacity: 55%;
+    font-size: 0.8rem;
+}
+
 .category-text {
     visibility: hidden;
   width: max-content;
